@@ -17,4 +17,4 @@ jobs:
         run: npm install
 
       - name: Run Prettier
-        run: npx prettier --config .prettierrc.json --write "**/*.js"
+        run: npx prettier --config .prettierrc.json --write "*/*.js"
