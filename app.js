@@ -1,5 +1,5 @@
 const messages = [
-    'It is certain',
+    "It is certain",
     'It is decidedly so',
     'Without a doubt',
     'Yes, definitely',
