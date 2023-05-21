@@ -12,7 +12,7 @@ jobs:
 
       - uses: npm -g -install
 
-      - run: npm run format
+      - run: npm run prettier --write --config .prettierrc.json '*src/.js'
       - run: git status
 
 
