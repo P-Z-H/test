@@ -1,3 +1,8 @@
+"husky": {
+  "hooks": {
+    "pre-commit": "pretty-quick --staged"
+  }
+},
 {
   "name": "test",
   "version": "1.0.0",
