@@ -1,7 +1,7 @@
 const bad = {
-    prop: "singlequotes",
+    prop: 'singlequotes',
 };
 
 const good = {
-    prop: "doublequotes",
+    prop: 'doublequotes',
 };
