@@ -22,5 +22,5 @@ jobs:
         run: npm install -g npm
 
       - name: Run Prettier
-        run: npx prettier --write "src/**/*.js"
+        run: npx prettier --write "**/*.js"
 
