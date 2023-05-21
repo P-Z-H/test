@@ -1,35 +1,17 @@
 {
-  "scripts": {
-    "format": "prettier --write \"**/*.js\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run format",
-      "git add"
-    ]
-  }
-}
-{
   "name": "test",
   "version": "1.0.0",
-  "description": "t",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo hi"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/P-Z-H/test.git"
+    "url": "git+https://github.com/P-Z-H/test.git"
   },
-  "keywords": [
-    "t"
-  ],
-  "author": "P",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/P-Z-H/test/issues"
