@@ -17,4 +17,4 @@ jobs:
         run: npm ci
 
       - name: Run Prettier
-        run: npx prettier --write "src/**/*.js"
+        run: npx prettier --config .prettierrc.json --write "**/*.js"
