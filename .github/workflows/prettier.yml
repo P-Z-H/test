@@ -10,13 +10,10 @@ jobs:
       steps:
       - uses: actions/checkout@v1
 
-      - uses: bahmutov/npm-install@v1
+      - uses: npm -g -install
 
       - run: npm run format
       - run: git status
-      - uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 
