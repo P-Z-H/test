@@ -1,7 +1,7 @@
 name: Prettier
 
 on:
-  push:
+  project:
     branches:
       - main
 
@@ -20,13 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install -g npm
-        
-      - name: Install Prettier
-        run: npm install --save-dev --save-exact prettier
 
       - name: Run Prettier
         run: npx prettier --config .prettierrc.json --write "*.js"
-        
-      - name: Auto
-        run: npm i --save-dev pretty-quick husky
 
