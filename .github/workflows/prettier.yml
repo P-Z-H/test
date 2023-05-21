@@ -20,9 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install -g npm
-        
-      - name: Install Prettier
-        run: npm install --save-dev --save-exact prettier
 
       - name: Run Prettier
         run: npx prettier --config .prettierrc.json --write "*.js"
