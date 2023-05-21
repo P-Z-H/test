@@ -1,8 +1,3 @@
-"husky": {
-  "hooks": {
-    "pre-commit": "pretty-quick --staged"
-  }
-},
 {
   "singleQuote": true,
   "trailingComma": "es5",
