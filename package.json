@@ -1,4 +1,20 @@
 {
+  "scripts": {
+    "format": "prettier --write \"**/*.js\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format",
+      "git add"
+    ]
+  }
+}
+{
   "name": "test",
   "version": "1.0.0",
   "description": "t",
