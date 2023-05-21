@@ -1,7 +1,7 @@
 name: Prettier
 
 on:
-  project:
+  push:
     branches:
       - main
 
